@@ -1,13 +1,13 @@
-package com.curriculum.vitae;
+package com.curriculum.vitae.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CurriculumVitaeApplication {
+public class CurriculumVitaeUserApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CurriculumVitaeApplication.class, args);
+		SpringApplication.run(CurriculumVitaeUserApplication.class, args);
 	}
 
 }

@@ -8,10 +8,10 @@
 		<version>2.6.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.curriculum.vitae</groupId>
+	<groupId>com.curriculum.vitae.user</groupId>
 	<artifactId>curriculum.vitae.user</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>curriculumVitae</name>
+	<name>curriculumVitaeUser</name>
 	<description>curriculum.vitae.user</description>
 	<properties>
 		<java.version>17</java.version>
