@@ -18,7 +18,11 @@ public class User implements Serializable {
 	@Column(name = "id_user")
 
 	private Long id;
-	private String name;
+	private static String name;
+	public void setName(String name) {
+		User.name = name;
+	}
+
 	private String email;
 	private String password;
 	private String neighbour;
@@ -32,13 +36,10 @@ public class User implements Serializable {
 		this.id = id;
 	}
 
-	public String getName() {
+	public static String getName() {
 		return name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
 
 	public String getEmail() {
 		return email;
